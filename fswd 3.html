@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/trisha.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Full Stack Development Course</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(90deg, #982a75, #982a75);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            max-width: 900px;
+            margin: auto;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Common container */
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* Section cards */
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #982a75;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #982a75;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #982a75;
+        }
+
+        /* Logo section */
+        .logo {
+            text-align: center;
+        }
+
+        .logo img {
+            width: 250px;
+            max-width: 90%;
+        }
+
+        /* Form */
+        form {
+            margin-top: 15px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #982a75;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #982a75 ;
+        }
+
+        /* Footer text */
+        .info-text {
+            font-size: 13px;
+            color: #555;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Welcome to Full Stack Development Course</h1>
+        <p>
+            The Full Stack Development (FSD) course is designed to help learners become industry-ready developers
+            by mastering both front-end and back-end technologies. This course focuses on building complete,
+            scalable, and real-world web applications.
+        </p>
+    </div>
+
+    <div class="container">
+
+        <!-- Course Overview -->
+        <div class="card">
+            <h2>Course Overview</h2>
+            <p>
+                In this course, students begin with front-end development using HTML, CSS, and JavaScript
+                to create responsive and interactive web pages. After mastering the basics, learners move
+                on to modern frameworks such as React and Angular to build dynamic user interfaces.
+            </p>
+        </div>
+
+        <!-- Backend Section -->
+        <div class="card">
+            <h2>Backend &amp; Database Technologies</h2>
+            <p>
+                The back-end module focuses on server-side programming using technologies like Node.js.
+                Students learn how to design APIs, handle authentication, and connect applications with
+                databases such as MySQL, MongoDB, and Firebase.
+            </p>
+        </div>
+
+        <!-- Explore More -->
+        <div class="card">
+            <h2>Explore More</h2>
+            <p>
+                Click the button below to explore more resources related to web development.
+            </p>
+            <a href="http://127.0.0.1:5500/trisha.html#" class="btn">Click Here</a>
+        </div>
+
+        <!-- Course Logo -->
+        <div class="card logo">
+            <h2>Course Logo</h2>
+            <img src="./fswd 3_files/full-stack-developer-programmer-who-260nw-2152875925.jpg" alt="Full Stack Development Logo">
+        </div>
+
+        <!-- Registration Form -->
+        <div class="card">
+            <h2>Register for Full Stack Development Course</h2>
+
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name">
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Interested Stack</label>
+                <input type="text" placeholder="Frontend / Backend / Full Stack">
+
+                <button type="submit">Register Now</button>
+            </form>
+
+            <p class="info-text">
+                This course is ideal for students, fresh graduates, and working professionals who want
+                to enhance their technical skills and build a strong career in software development.
+            </p>
+            <p class="info-text">
+                By the end of the course, learners will be capable of developing complete web applications,
+                deploying them on servers, and maintaining them efficiently.
+            </p>
+        </div>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
